@@ -6,7 +6,7 @@
 
     <groupId>me.asu</groupId>
     <artifactId>asu-log</artifactId>
-    <version>${revision}</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
     <modules>
         <module>asu-log-minlog</module>
@@ -15,15 +15,11 @@
         <module>asu-log-slf4j2</module>
     </modules>
     <properties>
-        <!-- 统一一个地方设定版本 -->
-        <revision>1.0.1</revision>
-
         <!-- 用 release=8，比 source/target 更稳（JDK9+ 提供），输出 Java 8 字节码 -->
         <maven.compiler.release>8</maven.compiler.release>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <maven.test.skip>false</maven.test.skip>
-
 
         <!-- 选 Java 8 仍支持的分支 -->
         <slf4j.version>1.7.36</slf4j.version>      <!-- 1.7.x 仍兼容 8；2.x 需要配合 logback 1.4+（Java11+） -->

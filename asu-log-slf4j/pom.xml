@@ -6,7 +6,7 @@
     <parent>
         <groupId>me.asu</groupId>
         <artifactId>asu-log</artifactId>
-        <version>${revision}</version>
+        <version>1.0.1</version>
     </parent>
 
     <artifactId>asu-log-slf4j</artifactId>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>me.asu</groupId>
             <artifactId>asu-log-minlog</artifactId>
-            <version>${revision}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>

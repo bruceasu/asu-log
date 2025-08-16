@@ -6,7 +6,7 @@
     <parent>
         <groupId>me.asu</groupId>
         <artifactId>asu-log</artifactId>
-        <version>${revision}</version>
+        <version>1.0.1</version>
     </parent>
 
     <artifactId>asu-log-minlog</artifactId>
