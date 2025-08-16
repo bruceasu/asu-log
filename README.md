@@ -103,7 +103,7 @@ Pick the module you need:
 <dependency>
   <groupId>com.github.bruceasu</groupId>
   <artifactId>asu-log-slf4j</artifactId>
-  <version>v1.0.0</version>
+  <version>v1.0.1</version>
 </dependency>
 ```
 
@@ -113,7 +113,7 @@ or
 <dependency>
   <groupId>com.github.bruceasu</groupId>
   <artifactId>asu-log-slf4j2</artifactId>
-  <version>v1.0.0</version>
+  <version>v1.0.1</version>
 </dependency>
 ```
 
@@ -123,7 +123,7 @@ or
 <dependency>
   <groupId>com.github.bruceasu</groupId>
   <artifactId>asu-log-to-slf4j</artifactId>
-  <version>v1.0.0</version>
+  <version>v1.0.1</version>
 </dependency>
 ```
 
