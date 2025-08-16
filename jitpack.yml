@@ -6,5 +6,5 @@ jdk:
 #是给别人用，不想污染 Maven 本地仓库，可以让 JitPack 只执行 package
 install:
   - bash -lc "chmod +x mvnw"
-  - ./mvnw -B -V -DskipTests clean package
+  - ./mvnw -B -DskipTests clean install
 

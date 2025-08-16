@@ -9,7 +9,7 @@ public class App {
         Log.error("Error message");
 
 
-        //
-        Log.setLogger(new Slf4jAdapter());
+        // 需要把其它的输出通过slf4j的输出，
+        // Log.setLogger(new Slf4jAdapter());
     }
 }
