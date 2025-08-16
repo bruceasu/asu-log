@@ -1,0 +1,1 @@
+基于 com.esotericsoftware:minlog:1.3.1 修改，[minlog](https://github.com/EsotericSoftware/minlog)
