@@ -98,10 +98,18 @@ Published via **JitPack**.
 ### Add Dependency
 
 Pick the module you need:
-
 ```xml
 <dependency>
-  <groupId>com.github.bruceasu</groupId>
+  <groupId>com.github.bruceasu.asu-log</groupId>
+  <artifactId>asu-log-minlog</artifactId>
+  <version>v1.0.1</version>
+</dependency>
+```
+
+or
+```xml
+<dependency>
+  <groupId>com.github.bruceasu.asu-log</groupId>
   <artifactId>asu-log-slf4j</artifactId>
   <version>v1.0.1</version>
 </dependency>
@@ -111,7 +119,7 @@ or
 
 ```xml
 <dependency>
-  <groupId>com.github.bruceasu</groupId>
+  <groupId>com.github.bruceasu.asu-log</groupId>
   <artifactId>asu-log-slf4j2</artifactId>
   <version>v1.0.1</version>
 </dependency>
@@ -121,7 +129,7 @@ or
 
 ```xml
 <dependency>
-  <groupId>com.github.bruceasu</groupId>
+  <groupId>com.github.bruceasu.asu-log</groupId>
   <artifactId>asu-log-to-slf4j</artifactId>
   <version>v1.0.1</version>
 </dependency>

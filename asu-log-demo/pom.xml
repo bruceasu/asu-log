@@ -23,8 +23,9 @@
         <!-- asu-log binding for SLF4J (1.7.x compatible) -->
         <dependency>
             <groupId>com.github.bruceasu.asu-log</groupId>
-            <artifactId>asu-log-slf4j</artifactId>
-            <version>6172fbe00c</version>
+            <artifactId>asu-log-minlog</artifactId>
+            <version>v1.0.1</version>
         </dependency>
+
     </dependencies>
 </project>
